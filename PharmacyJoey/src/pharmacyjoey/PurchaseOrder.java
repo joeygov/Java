@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pharmacyjoey;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+/**
+ *
+ * @author destacamento_sd2022
+ */
+public class PurchaseOrder {
+
+    List l = new ArrayList();
+
+    public void getOrder() {
+        System.out.println("Please place your order: ");
+        System.out.println("Enter the input");
+        Scanner input = new Scanner(System.in);
+        l.add(input);
+        for (int i = 0; i < l.size(); i++) {
+            l.add(input);
+            
+        }
+        
+    }
+
+}
